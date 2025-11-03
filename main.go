@@ -12,8 +12,8 @@ func main() {
 	lib := services.NewLibrary()
 
 	// seed some members
-	lib.AddMember(models.Member{ID: 1, Name: "Alice"})
-	lib.AddMember(models.Member{ID: 2, Name: "Bob"})
+	lib.AddMember(models.Member{ID: 1, Name: "Samuel"})
+	lib.AddMember(models.Member{ID: 2, Name: "Abraham"})
 
 	// seed some books
 	lib.AddBook(models.Book{ID: 101, Title: "The Go Programming Language", Author: "Alan A. A. Donovan"})
